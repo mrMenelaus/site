@@ -1,0 +1,39 @@
+.block {
+    box-shadow: 5px 5px 15px rgba(var(--main_color_dec),0.15);
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding: 15px;
+    border: solid rgba(var(--main_color_dec),0.5) 1px;
+    background-color: rgba(var(--main_color_dec),0.05);
+    border-radius:5px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.answer {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.content {
+    font-size: 18px;
+}
+
+.answer_body {
+    font-weight: 500;
+}
+
+.desition {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.condition {
+    font-size: 32px;
+    font-weight: 700;
+}

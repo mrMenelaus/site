@@ -1,0 +1,20 @@
+.button {
+    margin: 0 auto;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--accent_color);
+    color: var(--main_color);
+    cursor: pointer;
+}
+
+.button:hover {
+    filter: brightness(90%);
+    transition: 0.2s ease-in-out;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
