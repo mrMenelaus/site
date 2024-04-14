@@ -1,0 +1,31 @@
+.box {
+    display: flex;
+    padding: 20px 0;
+    justify-content: left;
+}
+
+.box>*{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third {
+    transform: translateX(-65%);
+    border-radius: 50%;
+    position: relative;
+    background-color: rgba(var(--accent_color_dec), 0.2);
+}
+
+.first {
+    transform: translateX(65%);
+    border-radius: 50%;
+    position: relative;
+    background-color: rgba(var(--accent_color_dec), 0.4);
+}
+
+.second {
+    z-index: 10;
+}

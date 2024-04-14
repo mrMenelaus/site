@@ -21,9 +21,9 @@ const Layout = () => {
             <hr className='breaker'/>
                 <Outlet />
             <footer>
-                <p>Тот который смог</p>
+                <p>Воложанин Никита</p>
                 <p>ИП Алгебра логики</p>
-                <p>2024 г</p>
+                <p>2024 г.</p>
             </footer>
         </div>
     );

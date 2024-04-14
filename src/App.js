@@ -10,7 +10,6 @@ import Page6 from "./components/Page6";
 import Layout from "./components/Layout";
 import NotFound from "./components/NotFound";
 
-
 function App() {
   return (
     <Routes>

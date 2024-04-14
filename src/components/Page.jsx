@@ -1,6 +1,8 @@
 import React from 'react';
 import MyButton from './UI/MyButton';
+import { useEffect } from 'react';
 const Page = () => {
+    useEffect(()=>{window.scrollTo(0,0)},[])
     return (
         <div className='container'>
             <div className="content">
